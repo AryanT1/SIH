@@ -1,0 +1,59 @@
+.microphonestageIcon {
+  position: relative;
+  width: 38px;
+  height: 38px;
+}
+.marketing {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-end;
+  width: 159px;
+  flex-shrink: 0;
+}
+.microphonestageParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.arrowuprightIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.arrowuprightWrapper,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.arrowuprightWrapper {
+  border-radius: var(--br-981xl);
+  align-items: flex-start;
+  padding: var(--padding-3xs);
+}
+.frameParent {
+  align-items: center;
+  gap: var(--gap-6xs);
+}
+.mostPopularCategoryInner {
+  position: absolute;
+  top: 259.4px;
+  left: 1100px;
+  border-radius: var(--br-3xl);
+  background-color: var(--gray-white);
+  height: 74.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--body-large-400-size);
+  color: var(--gray-black);
+  font-family: var(--body-large-400);
+}
